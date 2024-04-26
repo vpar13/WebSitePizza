@@ -36,16 +36,18 @@ h1,h2,h3,h4,h5{
     width: 100%;
 }
 .logo{
-    font-size: 1.9em;
+    height: 60px;
+	width: 80px;
+	margin-bottom: 40px;
     color: #de423a;
-    padding: 10px;
-    font-family: 'Sacramento', cursive;
+    
+    
         
 }
 .main-header__contactInfo__phone{
     background:#de423a;
     color: #fff;
-    padding: 10px;
+    padding: 0px;
     margin: 0;
 }
 
@@ -62,8 +64,8 @@ h1,h2,h3,h4,h5{
 .main_nav{
     width: 100%;
     position:relative;
-    z-index: 2000;  
-    padding: 10px;
+     
+    
 }
 
 .icon-menu{
@@ -176,7 +178,7 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Principales------------------*/
 .group--color .container{
-	background-color: #DE423A;
+	background-color:rgb(240, 101, 37);
 	padding: 10px;
 	text-align: center;
 	
@@ -184,7 +186,8 @@ h1,h2,h3,h4,h5{
 .main__title{
 	margin: 15px 0;
 	font-size: 2.8em;
-	font-family: 'Sacramento',cursive;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
 	
 }
 .column__title{
@@ -206,7 +209,7 @@ h1,h2,h3,h4,h5{
 	
 }
 .group__title{
-	font-family:'Sacramento',cursive;
+	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.8em;

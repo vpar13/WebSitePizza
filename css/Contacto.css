@@ -1,0 +1,38 @@
+/* Estilos para los contenedores del formulario y del mapa */
+.contenedor-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el formulario */
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.label {
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.label:nth-child(3) {
+    width: 100%;
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5e00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
